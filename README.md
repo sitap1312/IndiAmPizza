@@ -1,5 +1,5 @@
 # IndiAmPizza
-** https://sitap1312.github.io/IndiAmPizza/ **
+** https://github.com/sitap1312/IndiAmPizza**
 ** **
 
 # Project Overview
@@ -11,13 +11,6 @@ IndiAmPizza
 ## Project Description
  
 This is a React website using styled components and react hooks. The website is fully responsive and has a restaurant food ordering e-commerce design. 
-
-## API and Data Sample
-
-# Data Sample: 
-```
-
-```
 
 
 ## Wireframes
@@ -80,10 +73,48 @@ This is a React website using styled components and react hooks. The website is 
 ## Code Snippet
 
 ```
+function App() {
+  return (
+    <Router>
+      <GlobalStyle />
+      <Hero />
+    </Router>
+  );
+}
 
+export default App;
       
 ----------------------------------------------------------------------------------------------------------
- 
+ function Hero() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function toggle() {
+    setIsOpen(!isOpen)
+  };
+
+
+  return (
+    <HeroContainer>
+
+      <Navbar toggle={toggle} />
+
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+
+      <HeroContent>
+
+        <HeroItems>
+          <HeroH1>Greatest Pizza Ever</HeroH1>
+          <HeroP>Ready in 60 seconds</HeroP>
+          <HeroBtn>Place Order</HeroBtn>
+        </HeroItems>
+
+      </HeroContent>
+
+    </HeroContainer>
+  )
+};
+
+export default Hero;
 
 ```
 
