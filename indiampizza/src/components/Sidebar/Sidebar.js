@@ -10,9 +10,9 @@ const SideBar = ({ isOpen, toggle }) => {
       </Icon>
 
       <SidebarMenu>
-        <SidebarLink to='/'>Pizzas</SidebarLink>
-        <SidebarLink to='/'>Desserts</SidebarLink>
-        <SidebarLink to='/'>Full Menu</SidebarLink>
+        <SidebarLink to='productData'>Pizzas</SidebarLink>
+        <SidebarLink to='productData2'>Desserts</SidebarLink>
+        <SidebarLink to='productData'>Full Menu</SidebarLink>
       </SidebarMenu>
 
       <SideBtnWrap>

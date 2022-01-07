@@ -43,4 +43,5 @@ p {
 export const Bars = styled(FaPizzaSlice)`
 font-size: 2rem;
 transform: translate(-50%, -15%); 
+/* color: maroon; */
 `;
