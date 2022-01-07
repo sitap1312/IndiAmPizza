@@ -12,7 +12,28 @@ IndiAmPizza
  
 This is a React website using styled components and react hooks. The website is fully responsive and has a restaurant food ordering e-commerce design. 
 
+## Data Sample
+```
+export const productData = [
+  {
+    img: product1,
+    alt: "Pizza",
+    name: "Veggi Pizza",
+    desc: "Marinara sauce, Green Bellpepper, Onion, Tomato, Olives, Mashrooms and Pizza Cheese",
+    price: "$17.99",
+    button: "Add to Cart"
+  },
 
+  {
+    img: product2,
+    alt: "Pizza",
+    name: "Suprime Veggi Delite",
+    desc: "Marinara sauce, Green Bellpepper, Onion, Tomato, Olives, BabyCorn, and Pizza Cheese",
+    price: "$19.99",
+    button: "Add to Cart"
+  },
+  
+```
 ## Wireframes
 
 ![Screen Shot 2021-07-13 at 7 47 15 AM](https://user-images.githubusercontent.com/85080279/125473070-fb21f69b-68ce-47df-846e-89a25183994b.png)
