@@ -62,13 +62,13 @@ export const productData = [
 |  Day | Deliverable | Status
 |---|---| ---|
 |Jan 3| Priority Matrix, Wireframes, Project Approval | Complete
-|Jan 4| Core Application Structure | InComplete
-|Jan 5| Actual code | InComplete
-|Jan 6| MVP  | InComplete
-|Jan 7| CSS Styling | InComplete
+|Jan 4| Core Application Structure | Complete
+|Jan 5| Actual code | Complete
+|Jan 6| MVP  | Complete
+|Jan 7| CSS Styling | Complete
 |Jan 8| PMVP and advance styling  | InComplete
 |Jan 9| Advance Styling, PMVP| InComplete
-|Jan 10| Presentations | InComplete
+|Jan 10| Presentations | Complete
 
 ## Priority Matrix
 
